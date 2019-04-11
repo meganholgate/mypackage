@@ -1,0 +1,16 @@
+Package: mypackage
+Type: Package
+Title: Print hello world greeting with animal
+Version: 0.1.0
+Authors@R: c(person("Meg", "Holgate", email = "annakrystalli@googlemail.com",
+                  role = c("aut", "cre"))
+Description: Print greeting with animal
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    cowsay
+Suggests: 
+    testthat
+Date: 2019-04-11
